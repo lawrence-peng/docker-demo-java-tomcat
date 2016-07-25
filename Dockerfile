@@ -1,4 +1,4 @@
-FROM daocloud.io/pengtianzi/docker-base-image:latest
+FROM daocloud.io/pengtianzi/docker-base-image:master-a9397e7
 
 ADD pom.xml /tmp/build/
 RUN cd /tmp/build && mvn -q dependency:resolve
